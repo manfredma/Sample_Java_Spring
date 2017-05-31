@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sample.iml" filepath="$PROJECT_DIR$/.idea/modules/Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Sample_main.iml" group="Sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Sample_test.iml" group="Sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernate_sample.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernate_sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernate_sample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernate_sample_main.iml" group="hibernate_sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernate_sample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernate_sample_test.iml" group="hibernate_sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_bean_factory/spring_bean_factory.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_bean_factory/spring_bean_factory.iml" group="spring_bean_factory" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_bean_factory/spring_bean_factory_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_bean_factory/spring_bean_factory_main.iml" group="spring_bean_factory" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_bean_factory/spring_bean_factory_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_bean_factory/spring_bean_factory_test.iml" group="spring_bean_factory" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa.iml" group="spring_data_jpa" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa_main.iml" group="spring_data_jpa" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa_test.iml" group="spring_data_jpa" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_sample.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_sample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_sample_main.iml" group="spring_sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_sample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_sample_test.iml" group="spring_sample" />
+    </modules>
+  </component>
+</project>

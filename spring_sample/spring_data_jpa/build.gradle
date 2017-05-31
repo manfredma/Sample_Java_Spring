@@ -1,0 +1,14 @@
+group 'manfred'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.springframework.data', name: 'spring-data-jpa', version: '1.11.3.RELEASE'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

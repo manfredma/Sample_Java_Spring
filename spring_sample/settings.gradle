@@ -1,0 +1,4 @@
+rootProject.name = 'spring_sample'
+include 'spring_bean_factory'
+include 'spring_data_jpa'
+
