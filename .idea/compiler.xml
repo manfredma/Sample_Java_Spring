@@ -2,10 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="domain_main" target="1.8" />
+      <module name="domain_test" target="1.8" />
       <module name="hibernate_main" target="1.8" />
-      <module name="hibernate_sample_main" target="1.5" />
-      <module name="hibernate_sample_test" target="1.5" />
+      <module name="hibernate_sample_main" target="1.8" />
+      <module name="hibernate_sample_test" target="1.8" />
       <module name="hibernate_test" target="1.8" />
+      <module name="jdbc_main" target="1.8" />
+      <module name="jdbc_test" target="1.8" />
       <module name="Sample_main" target="1.8" />
       <module name="Sample_test" target="1.8" />
       <module name="spring_bean_factory_main" target="1.8" />
@@ -13,8 +17,8 @@
       <module name="spring_data_jpa_main" target="1.8" />
       <module name="spring_data_jpa_test" target="1.8" />
       <module name="spring_main" target="1.8" />
-      <module name="spring_sample_main" target="1.5" />
-      <module name="spring_sample_test" target="1.5" />
+      <module name="spring_sample_main" target="1.8" />
+      <module name="spring_sample_test" target="1.8" />
       <module name="spring_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
