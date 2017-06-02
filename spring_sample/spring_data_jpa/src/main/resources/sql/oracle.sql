@@ -18,9 +18,15 @@ create_instant TIMESTAMP(6) WITH TIME ZONE default systimestamp,
 modify_id      NUMBER(10),
 modify_instant TIMESTAMP(6) WITH TIME ZONE default systimestamp,
 transaction_id VARCHAR2(100),
-server_name    VARCHAR2(100));
+server_name    VARCHAR2(100),
+active_date_time TIMESTAMP(6) WITH TIME ZONE default systimestamp,
+active_date_time2 TIMESTAMP(6) WITH TIME ZONE default systimestamp
+);
 
 -- Create/Recreate primary, unique and foreign key constraints
 alter table CUSTOMER
   add constraint fk_customer_customer foreign key (PARENT_ID)
   references customer (ID);
+
+-- Create sequence
+create sequence SEQ_ID minvalue 1 maxvalue 9999999999 start with 1 increment by 1 nocache;

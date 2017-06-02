@@ -3,10 +3,12 @@ package domain;
 
 import domain.enums.CustomerType;
 import domain.enums.Sex;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDate;
+import java.time.ZonedDateTime;
 
 
 @Entity
@@ -16,6 +18,8 @@ public class Customer extends AbstractModel implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
+    @SequenceGenerator(name = "SEQ_ID", sequenceName = "seq_id", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "SEQ_ID")
     private Long id;
 
     private String name;
@@ -50,6 +54,12 @@ public class Customer extends AbstractModel implements Serializable {
     private Customer parent;
 
     private String mem;
+
+    @Column(name = "ACTIVE_DATE_TIME")
+    private ZonedDateTime activeDateTime;
+
+    @Column(name = "ACTIVE_DATE_TIME2")
+    private ZonedDateTime activeDateTime2;
 
     public Customer() {
     }
@@ -156,5 +166,21 @@ public class Customer extends AbstractModel implements Serializable {
 
     public void setMem(String mem) {
         this.mem = mem;
+    }
+
+    public ZonedDateTime getActiveDateTime() {
+        return activeDateTime;
+    }
+
+    public void setActiveDateTime(ZonedDateTime activeDateTime) {
+        this.activeDateTime = activeDateTime;
+    }
+
+    public ZonedDateTime getActiveDateTime2() {
+        return activeDateTime2;
+    }
+
+    public void setActiveDateTime2(ZonedDateTime activeDateTime2) {
+        this.activeDateTime2 = activeDateTime2;
     }
 }

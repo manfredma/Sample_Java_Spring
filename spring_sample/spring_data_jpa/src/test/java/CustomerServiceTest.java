@@ -5,7 +5,12 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import service.api.ICustomerService;
 
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+
 public class CustomerServiceTest {
+
     ApplicationContext applicationContext;
 
     @Before
@@ -18,9 +23,17 @@ public class CustomerServiceTest {
     public void testAdd() {
         ICustomerService customerService = applicationContext.getBean(ICustomerService.class);
         Customer customer = new Customer();
-        customer.setId(1L);
         customer.setName("1");
-        Customer persitenced = customerService.add(customer);
-        System.out.println(persitenced.getId() + " - " + persitenced.getName());
+        customer.setActiveDateTime(ZonedDateTime.of(LocalDateTime.now(), ZoneId.of("+1")));
+        customer.setActiveDateTime2(ZonedDateTime.of(LocalDateTime.now(), ZoneId.of("+1")));
+        Customer persistenceCustomer = customerService.add(customer);
+        System.out.println(persistenceCustomer.getId() + " - " + persistenceCustomer.getName());
+    }
+
+    @Test
+    public void testFind() {
+        ICustomerService customerService = applicationContext.getBean(ICustomerService.class);
+        Customer persistenceCustomer = customerService.findById(16L);
+        System.out.println(persistenceCustomer.getId() + " - " + persistenceCustomer.getName() + " - " + persistenceCustomer.getCreateInstant());
     }
 }

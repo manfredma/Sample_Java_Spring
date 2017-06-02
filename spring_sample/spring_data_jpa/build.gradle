@@ -9,12 +9,16 @@ repositories {
 }
 
 dependencies {
-    compile "org.hibernate:hibernate-java8:5.1.0.Final"
-    compile "org.hibernate:hibernate-entitymanager:5.1.0.Final"
+//    compile "org.hibernate:hibernate-java8:5.1.0.Final"
+    compile group: 'org.hibernate', name: 'hibernate-entitymanager', version: '5.2.10.Final'
     compile "org.aspectj:aspectjweaver:1.8.7"
-    compile "com.github.noraui:ojdbc7:12.1.0.2"
+    compile files('lib/ojdbc8.jar')
+//    compile "com.github.noraui:ojdbc7:12.1.0.2"
+    // https://mvnrepository.com/artifact/org.jadira.usertype/usertype.core
+//    compile group: 'org.jadira.usertype', name: 'usertype.core', version: '5.0.0.GA'
+//    compile group: 'org.jadira.usertype', name: 'usertype.extended', version: '5.0.0.GA'
     compile group: 'org.hibernate.javax.persistence', name: 'hibernate-jpa-2.1-api', version: '1.0.0.Final'
-    compile group: 'com.alibaba', name: 'druid', version: '1.0.27'
+    compile group: 'com.alibaba', name: 'druid', version: '1.0.31'
     compile group: 'org.springframework.data', name: 'spring-data-jpa', version: '1.11.3.RELEASE'
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
