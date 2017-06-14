@@ -4,10 +4,14 @@
     <bytecodeTargetLevel>
       <module name="domain_main" target="1.8" />
       <module name="domain_test" target="1.8" />
+      <module name="guava_main" target="1.8" />
+      <module name="guava_test" target="1.8" />
       <module name="hibernate_main" target="1.8" />
       <module name="hibernate_sample_main" target="1.8" />
       <module name="hibernate_sample_test" target="1.8" />
       <module name="hibernate_test" target="1.8" />
+      <module name="java_basic_main" target="1.8" />
+      <module name="java_basic_test" target="1.8" />
       <module name="jdbc_main" target="1.8" />
       <module name="jdbc_test" target="1.8" />
       <module name="Sample_main" target="1.8" />
@@ -20,6 +24,10 @@
       <module name="spring_sample_main" target="1.8" />
       <module name="spring_sample_test" target="1.8" />
       <module name="spring_test" target="1.8" />
+      <module name="spring_transaction_main" target="1.8" />
+      <module name="spring_transaction_test" target="1.8" />
+      <module name="system_main" target="1.8" />
+      <module name="system_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
