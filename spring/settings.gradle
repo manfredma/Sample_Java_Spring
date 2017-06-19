@@ -2,4 +2,5 @@ rootProject.name = 'spring'
 include 'spring_bean_factory'
 include 'spring_data_jpa'
 include 'spring_transaction'
+include 'spring_rabbitmq'
 

@@ -24,6 +24,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/guava" />
+            <option value="$PROJECT_DIR$/guava/rate" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
@@ -70,6 +71,19 @@
       <GradleProjectSettings>
         <option name="createEmptyContentRootDirectories" value="true" />
         <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/rabbitmq" />
+        <option name="gradleHome" value="$USER_HOME$/WORK/gradle/gradle-2.10" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/rabbitmq" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/spring" />
         <option name="gradleHome" value="$USER_HOME$/WORK/gradle/gradle-2.10" />
         <option name="modules">
@@ -77,6 +91,7 @@
             <option value="$PROJECT_DIR$/spring" />
             <option value="$PROJECT_DIR$/spring/spring_bean_factory" />
             <option value="$PROJECT_DIR$/spring/spring_data_jpa" />
+            <option value="$PROJECT_DIR$/spring/spring_rabbitmq" />
             <option value="$PROJECT_DIR$/spring/spring_transaction" />
           </set>
         </option>

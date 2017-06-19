@@ -17,6 +17,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbc.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbc_main.iml" group="jdbc" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbc_test.iml" group="jdbc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rabbitmq.iml" filepath="$PROJECT_DIR$/.idea/modules/rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rabbitmq_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rabbitmq_main.iml" group="rabbitmq" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rabbitmq_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rabbitmq_test.iml" group="rabbitmq" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rate/rate.iml" filepath="$PROJECT_DIR$/.idea/modules/rate/rate.iml" group="rate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rate/rate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rate/rate_main.iml" group="rate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rate/rate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rate/rate_test.iml" group="rate" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring.iml" filepath="$PROJECT_DIR$/.idea/modules/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_bean_factory/spring_bean_factory.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_bean_factory/spring_bean_factory.iml" group="spring_bean_factory" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_bean_factory/spring_bean_factory_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_bean_factory/spring_bean_factory_main.iml" group="spring_bean_factory" />
@@ -25,6 +31,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa_main.iml" group="spring_data_jpa" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa_test.iml" group="spring_data_jpa" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_main.iml" group="spring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_rabbitmq/spring_rabbitmq.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_rabbitmq/spring_rabbitmq.iml" group="spring_rabbitmq" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_rabbitmq/spring_rabbitmq_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_rabbitmq/spring_rabbitmq_main.iml" group="spring_rabbitmq" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_rabbitmq/spring_rabbitmq_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_rabbitmq/spring_rabbitmq_test.iml" group="spring_rabbitmq" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_test.iml" group="spring" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_transaction/spring_transaction.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_transaction/spring_transaction.iml" group="spring_transaction" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_transaction/spring_transaction_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_transaction/spring_transaction_main.iml" group="spring_transaction" />
