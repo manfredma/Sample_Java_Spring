@@ -1,0 +1,13 @@
+group 'manfred'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.springframework.amqp:spring-rabbit:1.7.3.RELEASE"
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
