@@ -1,8 +1,7 @@
 package manfred.spring.rabbitmq;
 
-import org.springframework.amqp.core.BindingBuilder;
-import org.springframework.amqp.core.Queue;
-import org.springframework.amqp.core.TopicExchange;
+import org.springframework.amqp.AmqpException;
+import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.core.RabbitAdmin;
@@ -19,7 +18,8 @@ public class MainJava {
         RabbitAdmin admin = new RabbitAdmin(cf);
         Queue queue = new Queue("myQueue");
         admin.declareQueue(queue);
-        TopicExchange exchange = new TopicExchange("myExchange");
+        TopicExchange exchange = new TopicExchange("myExchange-delay");
+        exchange.setDelayed(Boolean.TRUE);
         admin.declareExchange(exchange);
         admin.declareBinding(BindingBuilder.bind(queue).to(exchange).with("foo.*"));
 
@@ -37,8 +37,16 @@ public class MainJava {
 
         // send something
         RabbitTemplate template = new RabbitTemplate(cf);
-        template.convertAndSend("myExchange", "foo.bar", "Hello, world!");
-        Thread.sleep(1000);
+        template.convertAndSend("myExchange-delay", "foo.bar", "Hello, world!", new MessagePostProcessor() {
+
+            @Override
+            public Message postProcessMessage(Message message) throws AmqpException {
+                message.getMessageProperties().setDelay(5000);
+                return message;
+            }
+
+        });
+        Thread.sleep(10000);
         container.stop();
     }
 }

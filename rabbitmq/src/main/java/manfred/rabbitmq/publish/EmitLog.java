@@ -1,5 +1,6 @@
 package manfred.rabbitmq.publish;
 
+import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
@@ -20,7 +21,8 @@ public class EmitLog {
         // 分发消息
         for (int i = 0; i < 5; i++) {
             String message = "Hello World! " + i;
-            channel.basicPublish(EXCHANGE_NAME, "", null, message.getBytes());
+            AMQP.BasicProperties.Builder builder = new AMQP.BasicProperties.Builder().messageId("2222");
+            channel.basicPublish(EXCHANGE_NAME, "", builder.build(), message.getBytes());
             System.out.println(" [x] Sent '" + message + "'");
         }
         channel.close();
