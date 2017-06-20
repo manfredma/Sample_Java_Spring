@@ -13,7 +13,7 @@ import org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter;
 public class MainJava {
     public static void main(final String... args) throws Exception {
 
-        ConnectionFactory cf = new CachingConnectionFactory();
+        ConnectionFactory cf = new CachingConnectionFactory("localhost", 5672);
 
         // set up the queue, exchange, binding on the broker
         RabbitAdmin admin = new RabbitAdmin(cf);
