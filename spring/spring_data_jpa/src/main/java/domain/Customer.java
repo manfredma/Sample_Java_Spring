@@ -3,7 +3,6 @@ package domain;
 
 import domain.enums.CustomerType;
 import domain.enums.Sex;
-import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -54,6 +53,9 @@ public class Customer extends AbstractModel implements Serializable {
     private Customer parent;
 
     private String mem;
+
+    @Column(name = "NAME_CLOB")
+    private String nameClob;
 
     @Column(name = "ACTIVE_DATE_TIME")
     private ZonedDateTime activeDateTime;
@@ -182,5 +184,22 @@ public class Customer extends AbstractModel implements Serializable {
 
     public void setActiveDateTime2(ZonedDateTime activeDateTime2) {
         this.activeDateTime2 = activeDateTime2;
+    }
+
+    public String getNameClob() {
+        return nameClob;
+    }
+
+    public void setNameClob(String nameClob) {
+        this.nameClob = nameClob;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" + "id=" + id + ", name='" + name + '\'' + ", code='" + code + '\'' + ", password='" +
+                password + '\'' + ", type=" + type + ", addressId=" + addressId + ", detailAddress='" + detailAddress
+                + '\'' + ", firstName='" + firstName + '\'' + ", lastName='" + lastName + '\'' + ", sex=" + sex + ", " +
+                "" + "birthday=" + birthday + ", parent=" + parent + ", mem='" + mem + '\'' + ", nameClob='" +
+                nameClob + '\'' + ", activeDateTime=" + activeDateTime + ", activeDateTime2=" + activeDateTime2 + '}';
     }
 }
