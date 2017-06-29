@@ -1,3 +1,5 @@
 rootProject.name = 'java_basic'
 include 'system'
+include 'collection'
+include 'format'
 

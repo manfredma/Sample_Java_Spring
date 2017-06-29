@@ -2,8 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="collection_main" target="1.8" />
+      <module name="collection_test" target="1.8" />
       <module name="domain_main" target="1.8" />
       <module name="domain_test" target="1.8" />
+      <module name="dubbo2_main" target="1.8" />
+      <module name="dubbo2_test" target="1.8" />
+      <module name="dubbo_main" target="1.8" />
+      <module name="dubbo_test" target="1.8" />
+      <module name="format_main" target="1.8" />
+      <module name="format_test" target="1.8" />
       <module name="guava_main" target="1.8" />
       <module name="guava_test" target="1.8" />
       <module name="hibernate_main" target="1.8" />
@@ -24,6 +32,8 @@
       <module name="spring-rabbitmq_test" target="1.8" />
       <module name="spring_bean_factory_main" target="1.8" />
       <module name="spring_bean_factory_test" target="1.8" />
+      <module name="spring_boot_main" target="1.8" />
+      <module name="spring_boot_test" target="1.8" />
       <module name="spring_data_jpa_main" target="1.8" />
       <module name="spring_data_jpa_test" target="1.8" />
       <module name="spring_main" target="1.8" />
@@ -31,9 +41,13 @@
       <module name="spring_rabbitmq_test" target="1.8" />
       <module name="spring_sample_main" target="1.8" />
       <module name="spring_sample_test" target="1.8" />
+      <module name="Spring_SpEL_main" target="1.8" />
+      <module name="Spring_SpEL_test" target="1.8" />
       <module name="spring_test" target="1.8" />
       <module name="spring_transaction_main" target="1.8" />
       <module name="spring_transaction_test" target="1.8" />
+      <module name="spring_validation_data_binding_type_conversion_main" target="1.8" />
+      <module name="spring_validation_data_binding_type_conversion_test" target="1.8" />
       <module name="system_main" target="1.8" />
       <module name="system_test" target="1.8" />
     </bytecodeTargetLevel>

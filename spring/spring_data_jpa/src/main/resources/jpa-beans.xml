@@ -62,6 +62,7 @@
     <!-- 事务管理器 -->
     <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
         <property name="entityManagerFactory" ref="entityManagerFactory"/>
+        <property name="globalRollbackOnParticipationFailure" value="false" />
     </bean>
 
     <!-- 事务 -->

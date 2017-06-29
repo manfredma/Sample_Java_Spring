@@ -17,6 +17,19 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/dubbo" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/dubbo" />
+            <option value="$PROJECT_DIR$/dubbo/dubbo2" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/guava" />
         <option name="gradleHome" value="$USER_HOME$/WORK/gradle/gradle-2.10" />
@@ -50,6 +63,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/java_basic" />
+            <option value="$PROJECT_DIR$/java_basic/collection" />
+            <option value="$PROJECT_DIR$/java_basic/format" />
             <option value="$PROJECT_DIR$/java_basic/system" />
           </set>
         </option>
@@ -89,10 +104,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/spring" />
+            <option value="$PROJECT_DIR$/spring/Spring_SpEL" />
             <option value="$PROJECT_DIR$/spring/spring_bean_factory" />
+            <option value="$PROJECT_DIR$/spring/spring_boot" />
             <option value="$PROJECT_DIR$/spring/spring_data_jpa" />
             <option value="$PROJECT_DIR$/spring/spring_rabbitmq" />
             <option value="$PROJECT_DIR$/spring/spring_transaction" />
+            <option value="$PROJECT_DIR$/spring/spring_validation_data_binding_type_conversion" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

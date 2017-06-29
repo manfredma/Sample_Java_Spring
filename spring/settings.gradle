@@ -3,4 +3,7 @@ include 'spring_bean_factory'
 include 'spring_data_jpa'
 include 'spring_transaction'
 include 'spring_rabbitmq'
+include 'spring_boot'
+include 'spring_validation_data_binding_type_conversion'
+include 'Spring_SpEL'
 

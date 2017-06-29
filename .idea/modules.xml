@@ -5,6 +5,21 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sample.iml" filepath="$PROJECT_DIR$/.idea/modules/Sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Sample_main.iml" group="Sample" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Sample_test.iml" group="Sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring_SpEL/Spring_SpEL.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring_SpEL/Spring_SpEL.iml" group="Spring_SpEL" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring_SpEL/Spring_SpEL_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring_SpEL/Spring_SpEL_main.iml" group="Spring_SpEL" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring_SpEL/Spring_SpEL_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring_SpEL/Spring_SpEL_test.iml" group="Spring_SpEL" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/collection/collection.iml" filepath="$PROJECT_DIR$/.idea/modules/collection/collection.iml" group="collection" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/collection/collection_main.iml" filepath="$PROJECT_DIR$/.idea/modules/collection/collection_main.iml" group="collection" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/collection/collection_test.iml" filepath="$PROJECT_DIR$/.idea/modules/collection/collection_test.iml" group="collection" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2.iml" group="dubbo2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2_main.iml" group="dubbo2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2_test.iml" group="dubbo2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo_main.iml" group="dubbo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo_test.iml" group="dubbo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/format/format.iml" filepath="$PROJECT_DIR$/.idea/modules/format/format.iml" group="format" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/format/format_main.iml" filepath="$PROJECT_DIR$/.idea/modules/format/format_main.iml" group="format" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/format/format_test.iml" filepath="$PROJECT_DIR$/.idea/modules/format/format_test.iml" group="format" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/guava.iml" filepath="$PROJECT_DIR$/.idea/modules/guava.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/guava_main.iml" filepath="$PROJECT_DIR$/.idea/modules/guava_main.iml" group="guava" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/guava_test.iml" filepath="$PROJECT_DIR$/.idea/modules/guava_test.iml" group="guava" />
@@ -27,6 +42,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_bean_factory/spring_bean_factory.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_bean_factory/spring_bean_factory.iml" group="spring_bean_factory" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_bean_factory/spring_bean_factory_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_bean_factory/spring_bean_factory_main.iml" group="spring_bean_factory" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_bean_factory/spring_bean_factory_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_bean_factory/spring_bean_factory_test.iml" group="spring_bean_factory" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_boot/spring_boot.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_boot/spring_boot.iml" group="spring_boot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_boot/spring_boot_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_boot/spring_boot_main.iml" group="spring_boot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_boot/spring_boot_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_boot/spring_boot_test.iml" group="spring_boot" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa.iml" group="spring_data_jpa" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa_main.iml" group="spring_data_jpa" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa_test.iml" group="spring_data_jpa" />
@@ -38,6 +56,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_transaction/spring_transaction.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_transaction/spring_transaction.iml" group="spring_transaction" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_transaction/spring_transaction_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_transaction/spring_transaction_main.iml" group="spring_transaction" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_transaction/spring_transaction_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_transaction/spring_transaction_test.iml" group="spring_transaction" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_validation_data_binding_type_conversion/spring_validation_data_binding_type_conversion.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_validation_data_binding_type_conversion/spring_validation_data_binding_type_conversion.iml" group="spring_validation_data_binding_type_conversion" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_validation_data_binding_type_conversion/spring_validation_data_binding_type_conversion_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_validation_data_binding_type_conversion/spring_validation_data_binding_type_conversion_main.iml" group="spring_validation_data_binding_type_conversion" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_validation_data_binding_type_conversion/spring_validation_data_binding_type_conversion_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_validation_data_binding_type_conversion/spring_validation_data_binding_type_conversion_test.iml" group="spring_validation_data_binding_type_conversion" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/system/system.iml" filepath="$PROJECT_DIR$/.idea/modules/system/system.iml" group="system" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/system/system_main.iml" filepath="$PROJECT_DIR$/.idea/modules/system/system_main.iml" group="system" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/system/system_test.iml" filepath="$PROJECT_DIR$/.idea/modules/system/system_test.iml" group="system" />

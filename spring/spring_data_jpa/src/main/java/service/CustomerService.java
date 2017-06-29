@@ -14,7 +14,12 @@ public class CustomerService implements ICustomerService {
 
     @Override
     public Customer add(Customer customer) {
-        return customerRepository.saveAndFlush(customer);
+        try {
+            customerRepository.saveAndFlush(customer);
+        } catch (Exception e) {
+
+        }
+        return null;
     }
 
     @Override

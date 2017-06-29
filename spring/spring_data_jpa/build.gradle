@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    compile 'org.springframework:spring-context:4.3.9.RELEASE'
 //    compile "org.hibernate:hibernate-java8:5.1.0.Final"
     compile group: 'org.hibernate', name: 'hibernate-entitymanager', version: '5.2.10.Final'
     compile "org.aspectj:aspectjweaver:1.8.7"
