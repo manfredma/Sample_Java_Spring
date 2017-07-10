@@ -2,6 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="agent2_main" target="1.5" />
+      <module name="agent2_test" target="1.5" />
+      <module name="agent_main" target="1.8" />
+      <module name="agent_test" target="1.8" />
+      <module name="agent_test_main" target="1.8" />
+      <module name="agent_test_test" target="1.8" />
       <module name="collection_main" target="1.8" />
       <module name="collection_test" target="1.8" />
       <module name="domain_main" target="1.8" />
@@ -26,6 +32,8 @@
       <module name="rabbitmq_test" target="1.8" />
       <module name="rate_main" target="1.8" />
       <module name="rate_test" target="1.8" />
+      <module name="reflect_main" target="1.8" />
+      <module name="reflect_test" target="1.8" />
       <module name="Sample_main" target="1.8" />
       <module name="Sample_test" target="1.8" />
       <module name="spring-rabbitmq_main" target="1.8" />
@@ -50,6 +58,8 @@
       <module name="spring_validation_data_binding_type_conversion_test" target="1.8" />
       <module name="system_main" target="1.8" />
       <module name="system_test" target="1.8" />
+      <module name="time_main" target="1.8" />
+      <module name="time_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,4 +2,7 @@ rootProject.name = 'java_basic'
 include 'system'
 include 'collection'
 include 'format'
+include 'reflect'
+include 'time'
+include 'agent'
 

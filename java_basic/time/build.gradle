@@ -8,6 +8,5 @@ repositories {
 }
 
 dependencies {
-    compile project(":agent")
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }

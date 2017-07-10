@@ -63,9 +63,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/java_basic" />
+            <option value="$PROJECT_DIR$/java_basic/agent" />
             <option value="$PROJECT_DIR$/java_basic/collection" />
             <option value="$PROJECT_DIR$/java_basic/format" />
+            <option value="$PROJECT_DIR$/java_basic/reflect" />
             <option value="$PROJECT_DIR$/java_basic/system" />
+            <option value="$PROJECT_DIR$/java_basic/time" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
