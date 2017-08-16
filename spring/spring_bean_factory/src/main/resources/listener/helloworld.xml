@@ -2,7 +2,7 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd ">
+        http://www.springframework.org/schema/beans/spring-beans.xsd " default-lazy-init="true">
 
     <!--<context:annotation-config/>-->
     <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor" />
@@ -12,6 +12,6 @@
 
     <bean id="world" class="listener.World"></bean>
 
-    <bean id="listener" class="listener.EventListener"></bean>
+    <bean id="listener" class="listener.EventListener" lazy-init="true"></bean>
 
 </beans>

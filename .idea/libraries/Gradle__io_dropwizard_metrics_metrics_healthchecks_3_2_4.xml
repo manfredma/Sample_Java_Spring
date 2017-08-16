@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.dropwizard.metrics:metrics-healthchecks:3.2.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-healthchecks/3.2.4/a664ad6c62585709176655d95de2a2e4c6f68e61/metrics-healthchecks-3.2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-healthchecks/3.2.4/18c9bde6c911bbe5824728a22d3883043d56dfbe/metrics-healthchecks-3.2.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

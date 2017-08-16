@@ -2,6 +2,7 @@ package listener;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import javax.xml.bind.Marshaller;
 import java.io.IOException;
 
 public class Main {
@@ -11,13 +12,28 @@ public class Main {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"listener/helloworld.xml"},
                 Boolean.FALSE);
         context.refresh();
-        context.publishEvent(new RechargeEvent(new Object()));
+
+        publishEventByOtherThread(context);
 
         //2、从容器中获取Bean，注意此处完全“面向接口编程，而不是面向实现”
-        Hello helloApi = context.getBean("hello", Hello.class);
+//        Hello helloApi = context.getBean("hello", Hello.class);
         //3、执行业务逻辑
-        helloApi.sayHello();
-//        System.in.read();
+//        helloApi.sayHello();
+
+        context.getBean("listener");
+    }
+
+    private static void publishEventByOtherThread(ClassPathXmlApplicationContext context) {
+        Runnable runnable = () -> {
+            try {
+                Thread.sleep(1000L);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+//            context.publishEvent(new RechargeEvent(new Object()));
+            context.getBean("listener");
+        };
+        new Thread(runnable).start();
     }
 
 }

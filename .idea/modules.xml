@@ -15,6 +15,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/collection/collection.iml" filepath="$PROJECT_DIR$/.idea/modules/collection/collection.iml" group="collection" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/collection/collection_main.iml" filepath="$PROJECT_DIR$/.idea/modules/collection/collection_main.iml" group="collection" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/collection/collection_test.iml" filepath="$PROJECT_DIR$/.idea/modules/collection/collection_test.iml" group="collection" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dropwizard.iml" filepath="$PROJECT_DIR$/.idea/modules/dropwizard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dropwizard_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dropwizard_main.iml" group="dropwizard" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dropwizard_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dropwizard_test.iml" group="dropwizard" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2.iml" group="dubbo2" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2_main.iml" group="dubbo2" />
@@ -30,12 +33,24 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernate.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernate_main.iml" group="hibernate" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernate_test.iml" group="hibernate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/io.iml" filepath="$PROJECT_DIR$/.idea/modules/io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/io_main.iml" filepath="$PROJECT_DIR$/.idea/modules/io_main.iml" group="io" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/io_test.iml" filepath="$PROJECT_DIR$/.idea/modules/io_test.iml" group="io" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_basic.iml" filepath="$PROJECT_DIR$/.idea/modules/java_basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_basic_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java_basic_main.iml" group="java_basic" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_basic_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java_basic_test.iml" group="java_basic" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbc.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbc_main.iml" group="jdbc" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbc_test.iml" group="jdbc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/metrics/metrics.iml" filepath="$PROJECT_DIR$/.idea/modules/metrics/metrics.iml" group="metrics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/metrics/metrics_main.iml" filepath="$PROJECT_DIR$/.idea/modules/metrics/metrics_main.iml" group="metrics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/metrics/metrics_test.iml" filepath="$PROJECT_DIR$/.idea/modules/metrics/metrics_test.iml" group="metrics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.iml" filepath="$PROJECT_DIR$/.idea/modules/net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net_main.iml" filepath="$PROJECT_DIR$/.idea/modules/net_main.iml" group="net" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net_test.iml" filepath="$PROJECT_DIR$/.idea/modules/net_test.iml" group="net" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nio/nio.iml" filepath="$PROJECT_DIR$/.idea/modules/nio/nio.iml" group="nio" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nio/nio_main.iml" filepath="$PROJECT_DIR$/.idea/modules/nio/nio_main.iml" group="nio" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nio/nio_test.iml" filepath="$PROJECT_DIR$/.idea/modules/nio/nio_test.iml" group="nio" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rabbitmq.iml" filepath="$PROJECT_DIR$/.idea/modules/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rabbitmq_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rabbitmq_main.iml" group="rabbitmq" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rabbitmq_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rabbitmq_test.iml" group="rabbitmq" />
@@ -69,6 +84,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/system/system.iml" filepath="$PROJECT_DIR$/.idea/modules/system/system.iml" group="system" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/system/system_main.iml" filepath="$PROJECT_DIR$/.idea/modules/system/system_main.iml" group="system" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/system/system_test.iml" filepath="$PROJECT_DIR$/.idea/modules/system/system_test.iml" group="system" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/telnet/telnet.iml" filepath="$PROJECT_DIR$/.idea/modules/telnet/telnet.iml" group="telnet" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/telnet/telnet_main.iml" filepath="$PROJECT_DIR$/.idea/modules/telnet/telnet_main.iml" group="telnet" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/telnet/telnet_test.iml" filepath="$PROJECT_DIR$/.idea/modules/telnet/telnet_test.iml" group="telnet" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/time/time.iml" filepath="$PROJECT_DIR$/.idea/modules/time/time.iml" group="time" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/time/time_main.iml" filepath="$PROJECT_DIR$/.idea/modules/time/time_main.iml" group="time" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/time/time_test.iml" filepath="$PROJECT_DIR$/.idea/modules/time/time_test.iml" group="time" />

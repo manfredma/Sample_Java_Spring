@@ -7,6 +7,13 @@ repositories {
     mavenCentral()
 }
 
+configurations.all{
+    resolutionStrategy{
+        force 'org.springframework:spring-context:4.3.9.RELEASE'
+        force 'org.springframework:spring-core:4.3.9.RELEASE'
+    }
+}
+
 dependencies {
     compile('com.github.sgroschupf:zkclient:0.1') {
         exclude group: 'com.sun.jmx', module: 'jmxri'

@@ -12,6 +12,8 @@
       <module name="collection_test" target="1.8" />
       <module name="domain_main" target="1.8" />
       <module name="domain_test" target="1.8" />
+      <module name="dropwizard_main" target="1.8" />
+      <module name="dropwizard_test" target="1.8" />
       <module name="dubbo2_main" target="1.8" />
       <module name="dubbo2_test" target="1.8" />
       <module name="dubbo_main" target="1.8" />
@@ -24,10 +26,18 @@
       <module name="hibernate_sample_main" target="1.8" />
       <module name="hibernate_sample_test" target="1.8" />
       <module name="hibernate_test" target="1.8" />
+      <module name="io_main" target="1.8" />
+      <module name="io_test" target="1.8" />
       <module name="java_basic_main" target="1.8" />
       <module name="java_basic_test" target="1.8" />
       <module name="jdbc_main" target="1.8" />
       <module name="jdbc_test" target="1.8" />
+      <module name="metrics_main" target="1.8" />
+      <module name="metrics_test" target="1.8" />
+      <module name="net_main" target="1.8" />
+      <module name="net_test" target="1.8" />
+      <module name="nio_main" target="1.8" />
+      <module name="nio_test" target="1.8" />
       <module name="rabbitmq_main" target="1.8" />
       <module name="rabbitmq_test" target="1.8" />
       <module name="rate_main" target="1.8" />
@@ -58,6 +68,8 @@
       <module name="spring_validation_data_binding_type_conversion_test" target="1.8" />
       <module name="system_main" target="1.8" />
       <module name="system_test" target="1.8" />
+      <module name="telnet_main" target="1.8" />
+      <module name="telnet_test" target="1.8" />
       <module name="time_main" target="1.8" />
       <module name="time_test" target="1.8" />
     </bytecodeTargetLevel>
