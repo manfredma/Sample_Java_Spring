@@ -5,4 +5,5 @@ include 'format'
 include 'reflect'
 include 'time'
 include 'agent'
+include 'string'
 

@@ -66,6 +66,8 @@
       <module name="spring_transaction_test" target="1.8" />
       <module name="spring_validation_data_binding_type_conversion_main" target="1.8" />
       <module name="spring_validation_data_binding_type_conversion_test" target="1.8" />
+      <module name="string_main" target="1.8" />
+      <module name="string_test" target="1.8" />
       <module name="system_main" target="1.8" />
       <module name="system_test" target="1.8" />
       <module name="telnet_main" target="1.8" />
