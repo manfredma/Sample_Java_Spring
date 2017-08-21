@@ -17,8 +17,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/comparator/comparator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/comparator/comparator_main.iml" group="comparator" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/comparator/comparator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/comparator/comparator_test.iml" group="comparator" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dropwizard.iml" filepath="$PROJECT_DIR$/.idea/modules/dropwizard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dropwizard_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dropwizard_main.iml" group="dropwizard" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dropwizard_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dropwizard_test.iml" group="dropwizard" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2.iml" group="dubbo2" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2_main.iml" group="dubbo2" />
@@ -42,6 +40,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbc_main.iml" group="jdbc" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbc_test.iml" group="jdbc" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/metrics/metrics.iml" filepath="$PROJECT_DIR$/.idea/modules/metrics/metrics.iml" group="metrics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/metrics/metrics_main.iml" filepath="$PROJECT_DIR$/.idea/modules/metrics/metrics_main.iml" group="metrics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/metrics/metrics_test.iml" filepath="$PROJECT_DIR$/.idea/modules/metrics/metrics_test.iml" group="metrics" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.iml" filepath="$PROJECT_DIR$/.idea/modules/net.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/net_main.iml" filepath="$PROJECT_DIR$/.idea/modules/net_main.iml" group="net" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/net_test.iml" filepath="$PROJECT_DIR$/.idea/modules/net_test.iml" group="net" />
