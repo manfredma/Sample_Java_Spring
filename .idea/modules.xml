@@ -21,20 +21,14 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2.iml" group="dubbo2" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2_main.iml" group="dubbo2" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo2/dubbo2_test.iml" group="dubbo2" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo_main.iml" group="dubbo" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dubbo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dubbo_test.iml" group="dubbo" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/format/format.iml" filepath="$PROJECT_DIR$/.idea/modules/format/format.iml" group="format" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/format/format_main.iml" filepath="$PROJECT_DIR$/.idea/modules/format/format_main.iml" group="format" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/format/format_test.iml" filepath="$PROJECT_DIR$/.idea/modules/format/format_test.iml" group="format" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/guava.iml" filepath="$PROJECT_DIR$/.idea/modules/guava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/guava_main.iml" filepath="$PROJECT_DIR$/.idea/modules/guava_main.iml" group="guava" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/guava_test.iml" filepath="$PROJECT_DIR$/.idea/modules/guava_test.iml" group="guava" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernate.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernate_main.iml" group="hibernate" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernate_test.iml" group="hibernate" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/io.iml" filepath="$PROJECT_DIR$/.idea/modules/io.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/io_main.iml" filepath="$PROJECT_DIR$/.idea/modules/io_main.iml" group="io" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/io_test.iml" filepath="$PROJECT_DIR$/.idea/modules/io_test.iml" group="io" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_basic.iml" filepath="$PROJECT_DIR$/.idea/modules/java_basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbc.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbc_main.iml" group="jdbc" />
@@ -67,11 +61,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa.iml" group="spring_data_jpa" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa_main.iml" group="spring_data_jpa" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_data_jpa/spring_data_jpa_test.iml" group="spring_data_jpa" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_main.iml" group="spring" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_rabbitmq/spring_rabbitmq.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_rabbitmq/spring_rabbitmq.iml" group="spring_rabbitmq" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_rabbitmq/spring_rabbitmq_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_rabbitmq/spring_rabbitmq_main.iml" group="spring_rabbitmq" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_rabbitmq/spring_rabbitmq_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_rabbitmq/spring_rabbitmq_test.iml" group="spring_rabbitmq" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_test.iml" group="spring" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_transaction/spring_transaction.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_transaction/spring_transaction.iml" group="spring_transaction" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_transaction/spring_transaction_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_transaction/spring_transaction_main.iml" group="spring_transaction" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring_transaction/spring_transaction_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring_transaction/spring_transaction_test.iml" group="spring_transaction" />
