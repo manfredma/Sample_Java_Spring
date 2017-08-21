@@ -7,6 +7,7 @@ import org.springframework.expression.spel.standard.SpelExpressionParser;
 import org.springframework.expression.spel.support.StandardEvaluationContext;
 
 public class Main {
+    @SuppressWarnings("unchecked")
     public static void main(String[] args) {
         Inventor tesla = new Inventor("Nikola Tesla", "Serbian");
         Inventor tesla2 = new Inventor("Mike Tesla", "Serbian");

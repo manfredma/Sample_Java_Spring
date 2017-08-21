@@ -20,6 +20,7 @@ import java.util.Properties;
 import java.util.function.Consumer;
 
 @Service
+@SuppressWarnings("unchecked")
 public class RabbitAdminServices {
 
     private static final Logger logger = LoggerFactory.getLogger(RabbitAdminServices.class);

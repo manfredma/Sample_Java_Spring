@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@SuppressWarnings("unchecked")
 public class Main {
     public static void main(String[] args) {
         Inventor tesla = new Inventor("Nikola Tesla", "Serbian");
@@ -27,6 +28,7 @@ public class Main {
 
         // all prime numbers > 10 from the list (using selection ?{...})
         // evaluates to [11, 13, 17]
+        @SuppressWarnings("unchecked")
         List<Integer> primesGreaterThanTen = (List<Integer>) parser.parseExpression(
                 "#primes.?[#this>10]").getValue(context);
         System.out.println(primesGreaterThanTen);

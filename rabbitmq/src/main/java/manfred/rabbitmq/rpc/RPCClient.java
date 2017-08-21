@@ -4,17 +4,17 @@ import com.rabbitmq.client.AMQP.BasicProperties;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
-import com.rabbitmq.client.QueueingConsumer;
 
 import java.util.UUID;
 
+@SuppressWarnings("deprecation")
 public class RPCClient {
 
     private Connection connection;
     private Channel channel;
     private String requestQueueName = "rpc_queue";
     private String replyQueueName;
-    private QueueingConsumer consumer;
+    private com.rabbitmq.client.QueueingConsumer consumer;
 
     public RPCClient() throws Exception {
         ConnectionFactory factory = new ConnectionFactory();
@@ -23,7 +23,7 @@ public class RPCClient {
         channel = connection.createChannel();
 
         replyQueueName = channel.queueDeclare().getQueue();
-        consumer = new QueueingConsumer(channel);
+        consumer = new com.rabbitmq.client.QueueingConsumer(channel);
         channel.basicConsume(replyQueueName, true, consumer);
     }
 
@@ -57,7 +57,7 @@ public class RPCClient {
         channel.basicPublish("", requestQueueName, props, message.getBytes("UTF-8"));
 
         while (true) {
-            QueueingConsumer.Delivery delivery = consumer.nextDelivery();
+            com.rabbitmq.client.QueueingConsumer.Delivery delivery = consumer.nextDelivery();
             if (delivery.getProperties().getCorrelationId().equals(corrId)) {
                 response = new String(delivery.getBody(), "UTF-8");
                 break;
