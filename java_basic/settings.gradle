@@ -6,4 +6,5 @@ include 'reflect'
 include 'time'
 include 'agent'
 include 'string'
+include 'comparator'
 

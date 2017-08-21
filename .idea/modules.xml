@@ -15,6 +15,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/collection/collection.iml" filepath="$PROJECT_DIR$/.idea/modules/collection/collection.iml" group="collection" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/collection/collection_main.iml" filepath="$PROJECT_DIR$/.idea/modules/collection/collection_main.iml" group="collection" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/collection/collection_test.iml" filepath="$PROJECT_DIR$/.idea/modules/collection/collection_test.iml" group="collection" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comparator/comparator.iml" filepath="$PROJECT_DIR$/.idea/modules/comparator/comparator.iml" group="comparator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comparator/comparator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/comparator/comparator_main.iml" group="comparator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comparator/comparator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/comparator/comparator_test.iml" group="comparator" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dropwizard.iml" filepath="$PROJECT_DIR$/.idea/modules/dropwizard.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dropwizard_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dropwizard_main.iml" group="dropwizard" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dropwizard_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dropwizard_test.iml" group="dropwizard" />

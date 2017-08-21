@@ -10,6 +10,8 @@
       <module name="agent_test_test" target="1.8" />
       <module name="collection_main" target="1.8" />
       <module name="collection_test" target="1.8" />
+      <module name="comparator_main" target="1.8" />
+      <module name="comparator_test" target="1.8" />
       <module name="domain_main" target="1.8" />
       <module name="domain_test" target="1.8" />
       <module name="dropwizard_main" target="1.8" />
