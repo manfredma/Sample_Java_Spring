@@ -40,6 +40,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/net_main.iml" filepath="$PROJECT_DIR$/.idea/modules/net_main.iml" group="net" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/net_test.iml" filepath="$PROJECT_DIR$/.idea/modules/net_test.iml" group="net" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/nio/nio.iml" filepath="$PROJECT_DIR$/.idea/modules/nio/nio.iml" group="nio" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nio2/nio2.iml" filepath="$PROJECT_DIR$/.idea/modules/nio2/nio2.iml" group="nio2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nio2/nio2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/nio2/nio2_main.iml" group="nio2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nio2/nio2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/nio2/nio2_test.iml" group="nio2" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/nio/nio_main.iml" filepath="$PROJECT_DIR$/.idea/modules/nio/nio_main.iml" group="nio" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/nio/nio_test.iml" filepath="$PROJECT_DIR$/.idea/modules/nio/nio_test.iml" group="nio" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rabbitmq.iml" filepath="$PROJECT_DIR$/.idea/modules/rabbitmq.iml" />

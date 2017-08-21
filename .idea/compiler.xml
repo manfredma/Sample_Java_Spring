@@ -38,6 +38,8 @@
       <module name="metrics_test" target="1.8" />
       <module name="net_main" target="1.8" />
       <module name="net_test" target="1.8" />
+      <module name="nio2_main" target="1.8" />
+      <module name="nio2_test" target="1.8" />
       <module name="nio_main" target="1.8" />
       <module name="nio_test" target="1.8" />
       <module name="rabbitmq_main" target="1.8" />
