@@ -40,8 +40,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/io_main.iml" filepath="$PROJECT_DIR$/.idea/modules/io_main.iml" group="io" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/io_test.iml" filepath="$PROJECT_DIR$/.idea/modules/io_test.iml" group="io" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_basic.iml" filepath="$PROJECT_DIR$/.idea/modules/java_basic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_basic_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java_basic_main.iml" group="java_basic" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_basic_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java_basic_test.iml" group="java_basic" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbc.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbc_main.iml" group="jdbc" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jdbc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jdbc_test.iml" group="jdbc" />
